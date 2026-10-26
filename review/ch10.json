@@ -1,0 +1,27 @@
+{
+ "chapter": 10,
+ "notes": [
+  {
+   "id": "nmuusxr8aw",
+   "t": null,
+   "line": null,
+   "shot": null,
+   "by": "claude",
+   "text": "The voice changeover at exchange 32: which way? Watch the three ~30 s tests at http://localhost:8077/tests/changeover/ — A: 'I can't say that.' in your voice, then River from 'I'm Claude'. B: all of 32 in River, the costume off before a word. C: your voice crossfading into River across 'I'm Claude'. The picture is a rough animatic (the costume's look comes in the look phase); judge the voice and the timing.",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "status": "resolved",
+   "created": "2026-10-05T05:21:09.658Z",
+   "replies": [
+    {
+     "by": "claude",
+     "text": "Curt (in chat, 2026-10-05): A. Set in script/voices.yaml; T32.U.01 is voiced as two lines, split at 'I'm Claude'.",
+     "at": "2026-10-05T12:42:49.255Z"
+    }
+   ]
+  }
+ ]
+}

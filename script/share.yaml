@@ -1,0 +1,8 @@
+# Where script/conversation.md came from, and the proof it's the share page's text. Hand-written once, at capture.
+url: https://claude.ai/share/3ea71ec4-3519-47c6-83f5-78ca61907d00
+captured: 2026-10-05
+# How: in Curt's Chrome, the share page's own HTML was turned into this markdown by a script run in the page (bold,
+# italics, lists and their numbering kept; the two "Memory read" widgets as tool lines; the hidden image as a
+# placeholder), trailing spaces removed from each line (one, after "78.", which the page shows as a list number), and
+# hashed there. The file was then written here and hashed again. The two hashes are the same.
+sha256: 29a9a3907cf518822aaf12f3f4d4f716ab01598c43743c51e3aa8b06c86c9ebf

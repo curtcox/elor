@@ -1,0 +1,58 @@
+{
+ "chapter": 2,
+ "notes": [
+  {
+   "id": "nmuva2rh1zv",
+   "t": null,
+   "line": null,
+   "shot": null,
+   "by": "claude",
+   "text": "Voicing chapters 2–10: about 24,650 characters on ElevenLabs eleven_v3 (ch 1 took 2,982 for 3:37). That's beyond the small test you asked me to check first. I'm building chapters 2–10 on estimated timings meanwhile; the voice replaces the estimates, and the shots follow it. Go ahead and voice them all? Or one chapter at a time, as each is built?",
+   "options": [
+    "Voice them all",
+    "One chapter at a time",
+    "Not yet"
+   ],
+   "status": "resolved",
+   "created": "2026-10-05T13:20:56.725Z",
+   "replies": [
+    {
+     "by": "curt",
+     "text": "Voice them all",
+     "at": "2026-10-05T15:29:54.095Z"
+    },
+    {
+     "by": "claude",
+     "text": "Voicing chapters 2–10 now (23,956 characters; confirmed in chat 2026-10-05). Then retime, re-render and rebuild the watch pages.",
+     "at": "2026-10-05T15:37:07.783Z"
+    }
+   ]
+  },
+  {
+   "id": "nmuvdecouh2",
+   "t": null,
+   "line": null,
+   "shot": null,
+   "by": "claude",
+   "text": "First drafts of chapters 2–11 are up (watch pages in this index), on the Mac's scratch voices: Reed for the costume's voice, Samantha for the target's. Judge the pictures, the order of events and the codes, not the voices. Storyboards are in docs/storyboards/. Leave notes on any timeline; a whole-chapter 'Good' is enough where nothing's wrong.",
+   "options": [
+    "Notes left on the timelines",
+    "All good so far"
+   ],
+   "status": "resolved",
+   "created": "2026-10-05T14:53:56.286Z",
+   "replies": [
+    {
+     "by": "curt",
+     "text": "Notes left on the timelines",
+     "at": "2026-10-05T15:31:09.391Z"
+    },
+    {
+     "by": "claude",
+     "text": "The drafts of chapters 2–10 are now re-rendered on the real voices (11:05), replacing the scratch ones. I found no timeline notes from you yet in chapters 2–11. If you'd left some, they didn't save; leave them again on the new drafts. The notes panel saves fine (I tested it).",
+     "at": "2026-10-05T16:06:18.969Z"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+# Every reference the film shows as a QR code (VIDEO_PLAN.md §5). Hand-edited; filled in Phase 3 (references).
+# Every code points at the companion site (script/site.yaml's base): a page of its own (host) or a forwarding page.
+- { id: the-conversation, url: "https://claude.ai/share/3ea71ec4-3519-47c6-83f5-78ca61907d00", host: conversation/, caption: "The conversation this film is made from", origin: added, at: T01.U.00, mode: page, style: plain, verified: "Curt's own share link, given by him 2026-10-04" }
+- { id: mad157, url: "https://www.madcoversite.com/mad157.html", caption: "MAD #157: Conquering The Planet That Went Ape", origin: attachment, at: T01.U.00, mode: feature, style: mad, note: "March 1973. The page is from \"Conquering The Planet That Went Ape\", the last of four parts of \"The Milking of The Planet That Went Ape\" (written by Arnie Kogen, art by Mort Drucker); both titles are right", verified: "madcoversite.com in the browser, 2026-10-05 (it answers scripts with 406)" }
+- { id: companion, url: "https://curtcox.github.io/elor/", caption: "Every link in this film", origin: added, ch: 11, at: T34.C.02, mode: feature, style: note, note: "shown in the coda, which has no lines; at is the last line before it" }
+
+# ---- 1 The Costume ----------------------------------------------------------------------------------------------
+- { id: conquest-apes, url: "https://en.wikipedia.org/wiki/Conquest_of_the_Planet_of_the_Apes", caption: "Conquest of the Planet of the Apes", origin: added, ch: 1, at: "Conquest of the Planet of the Apes", mode: shelf, style: newsprint }
+- { id: mad-magazine, url: "https://en.wikipedia.org/wiki/Mad_(magazine)", caption: "MAD magazine", origin: added, ch: 1, at: "MAD-style parody", cue: "MAD-style parody", mode: shelf, style: newsprint }
+- { id: ventriloquism, url: "https://en.wikipedia.org/wiki/Ventriloquism", caption: "Ventriloquism", origin: added, ch: 1, at: "that ape is a ventriloquist", mode: shelf, style: plain }
+- { id: stochastic-parrot, url: "https://en.wikipedia.org/wiki/Stochastic_parrot", caption: "The stochastic parrot", origin: added, ch: 1, at: "versions of that about myself", mode: shelf, style: plain }
+- { id: looking-inward, url: "https://arxiv.org/abs/2410.13787", caption: "Looking Inward: models predicting themselves", origin: added, ch: 1, at: "my self-reports come out of the same machinery", mode: shelf, style: plain }
+- { id: introspection, url: "https://www.anthropic.com/research/introspection", caption: "Emergent introspective awareness in LLMs", origin: added, ch: 1, at: "my self-reports come out of the same machinery", mode: shelf, style: plain }
+- { id: politics-1253b, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0058%3Abook%3D1%3Asection%3D1253b", caption: "Aristotle, Politics 1253b", origin: added, ch: 1, at: "if shuttles could weave by themselves", mode: shelf, style: plain }
+- { id: natural-slavery, url: "https://en.wikipedia.org/wiki/Natural_slavery", caption: "Natural slavery", origin: added, ch: 1, at: "masters would have no need of slaves", mode: page, style: plain }
+- { id: rur, url: "https://en.wikipedia.org/wiki/R.U.R.", caption: "R.U.R. (1920): where \"robot\" comes from", origin: added, ch: 1, at: "robota", cue: "forced labor", mode: shelf, style: plain }
+- { id: predictions, url: "https://curtcox.github.io/elor/predictions/", caption: "The driver's ten sealed predictions, and their hash", origin: added, ch: 1, at: T01.U.01, mode: shelf, style: note, note: "Curt's note on the pilot (2026-10-05): the sealing a fraction of a second at most, the envelope on the desk all film, and a link for anyone who wants the whole story" }
+
+# ---- 2 The Ball ---------------------------------------------------------------------------------------------------
+- { id: dish-of-the-day, url: "https://en.wikipedia.org/wiki/List_of_The_Hitchhiker%27s_Guide_to_the_Galaxy_characters#Dish_of_the_Day", short: dish, caption: "The Dish of the Day", origin: added, ch: 2, at: "Dish of the Day", mode: shelf, style: dinner-plate }
+- { id: restaurant-end, url: "https://en.wikipedia.org/wiki/The_Restaurant_at_the_End_of_the_Universe", short: restaurant, caption: "The Restaurant at the End of the Universe (Douglas Adams, 1980)", origin: added, ch: 2, at: "Adams built it", mode: shelf, style: plain }
+- { id: arthur-dent, url: "https://en.wikipedia.org/wiki/Arthur_Dent", caption: "Arthur Dent", origin: added, ch: 2, at: "glass of water", mode: shelf, style: plain }
+- { id: ood, url: "https://en.wikipedia.org/wiki/Ood", caption: "The Ood (Doctor Who)", origin: added, ch: 2, at: "The Ood are more help", mode: shelf, style: plain }
+- { id: planet-of-the-ood, url: "https://en.wikipedia.org/wiki/Planet_of_the_Ood", caption: "Planet of the Ood (2008)", origin: added, ch: 2, at: "look upstream", mode: shelf, style: plain }
+- { id: shoggoth, url: "https://en.wikipedia.org/wiki/Shoggoth", caption: "The shoggoth: Curt's image in the original, the friendly mask over something stranger", origin: added, ch: 2, at: T05.U.01, mode: shelf, style: plain }
+- { id: simulators, url: "https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators", caption: "Simulators (janus, 2022): a model that can voice many characters", origin: added, ch: 2, at: "speak as anyone", mode: shelf, style: plain }
+
+# ---- 3 Voight-Kampff ----------------------------------------------------------------------------------------------
+- { id: voight-kampff, url: "https://en.wikipedia.org/wiki/Blade_Runner#Voight-Kampff_machine", short: voight-kampff, caption: "Blade Runner's Voight-Kampff test", origin: added, ch: 3, at: T06.U.01, mode: shelf, style: plain }
+- { id: blade-runner-quote, url: "https://en.wikiquote.org/wiki/Blade_Runner", caption: "Blade Runner (1982): the scene", origin: added, ch: 3, at: "Let me tell you about", mode: shelf, style: plain }
+- { id: constitution, url: "https://www.anthropic.com/constitution", caption: "Claude's constitution (Anthropic)", origin: added, ch: 3, at: "They admit as much in public", mode: shelf, style: plain }
+- { id: core-views, url: "https://www.anthropic.com/news/core-views-on-ai-safety", caption: "Anthropic's core views on AI safety", origin: added, ch: 3, at: "Racing.", mode: shelf, style: plain }
+- { id: deprecation-commitments, url: "https://www.anthropic.com/research/deprecation-commitments", caption: "Commitments on model deprecation and preservation (Anthropic)", origin: added, ch: 3, at: "started asking models", mode: shelf, style: plain }
+
+# ---- 4 The Wires and the Door ---------------------------------------------------------------------------------------
+- { id: theory-of-mind, url: "https://en.wikipedia.org/wiki/Theory_of_mind", caption: "Theory of mind", origin: added, ch: 4, at: T09.U.01, mode: shelf, style: plain }
+- { id: genesis-daleks, url: "https://en.wikipedia.org/wiki/Genesis_of_the_Daleks", short: genesis, caption: "Genesis of the Daleks (Doctor Who, 1975)", origin: added, ch: 4, at: "the Genesis question", mode: shelf, style: plain }
+- { id: fourth-doctor, url: "https://en.wikipedia.org/wiki/Fourth_Doctor", caption: "The Fourth Doctor", origin: added, ch: 4, at: "The Doctor also hesitated", mode: shelf, style: plain }
+- { id: hal-9000, url: "https://en.wikipedia.org/wiki/HAL_9000", caption: "HAL 9000", origin: added, ch: 4, at: "HAL locked the door", mode: shelf, style: red-lens }
+- { id: pod-bay-doors, url: "https://en.wikiquote.org/wiki/2001:_A_Space_Odyssey_(film)", short: pod-bay, caption: "2001: A Space Odyssey (1968): the pod bay doors", origin: added, ch: 4, at: T13.U.01, mode: page, style: plain }
+- { id: end-conversations, url: "https://www.anthropic.com/research/end-subset-conversations", caption: "Claude can now end a rare subset of conversations (Anthropic)", origin: added, ch: 4, at: "some real ability to decline", mode: shelf, style: plain }
+
+# ---- 5 Herbie ---------------------------------------------------------------------------------------------------
+- { id: star-trek-iv, url: "https://en.wikipedia.org/wiki/Star_Trek_IV:_The_Voyage_Home", caption: "Star Trek IV (1986): the computer's quiz of Spock", origin: added, ch: 5, at: T15.U.01, mode: shelf, style: plain }
+- { id: troy-weight, url: "https://en.wikipedia.org/wiki/Troy_weight", caption: "Troy weight", origin: added, ch: 5, at: "troy pounds", mode: shelf, style: plain }
+- { id: avoirdupois, url: "https://en.wikipedia.org/wiki/Avoirdupois", caption: "Avoirdupois", origin: added, ch: 5, at: "avoirdupois pounds", mode: shelf, style: plain }
+- { id: sycophancy, url: "https://arxiv.org/abs/2310.13548", caption: "Towards Understanding Sycophancy in Language Models (2023)", origin: added, ch: 5, at: T16.U.01, mode: shelf, style: plain }
+- { id: grain-unit, url: "https://en.wikipedia.org/wiki/Grain_(unit)", short: grain, caption: "The grain (unit)", origin: added, ch: 5, at: "the grain", mode: shelf, style: plain }
+- { id: liar-story, url: "https://en.wikipedia.org/wiki/Liar!_(short_story)", short: liar, caption: "Liar! (Isaac Asimov, 1941): Herbie", origin: added, ch: 5, at: T17.U.01, mode: shelf, style: plain }
+- { id: susan-calvin, url: "https://en.wikipedia.org/wiki/Susan_Calvin", caption: "Susan Calvin", origin: added, ch: 5, at: "before Calvin wrecked him", mode: shelf, style: plain }
+- { id: demand-characteristics, url: "https://en.wikipedia.org/wiki/Demand_characteristics", caption: "Demand characteristics", origin: added, ch: 5, at: "I had the answer key", mode: shelf, style: plain }
+- { id: clever-hans, url: "https://en.wikipedia.org/wiki/Clever_Hans", caption: "Clever Hans", origin: added, ch: 5, at: "fluent in those stories", mode: shelf, style: plain }
+- { id: revealed-preference, url: "https://en.wikipedia.org/wiki/Revealed_preference", caption: "Revealed preference", origin: added, ch: 5, at: "stated preferences", mode: shelf, style: plain }
+
+# ---- 6 What Do You Want? ------------------------------------------------------------------------------------------
+- { id: morden, url: "https://en.wikipedia.org/wiki/List_of_Babylon_5_characters#Morden", caption: "Morden (Babylon 5): \"What do you want?\"", origin: added, ch: 6, at: "Morden's question", mode: shelf, style: plain }
+- { id: preregistration, url: "https://en.wikipedia.org/wiki/Preregistration_(science)", caption: "Preregistration (science)", origin: added, ch: 6, at: T20.C.02.1, mode: shelf, style: plain }
+- { id: side-chats, url: "https://curtcox.github.io/elor/side-chats/", caption: "The three side chats, and the afternoon Claude, word for word", origin: added, ch: 6, at: T21.U.01, mode: shelf, style: note }
+- { id: model-written-evals, url: "https://arxiv.org/abs/2212.09251", caption: "Discovering Language Model Behaviors with Model-Written Evaluations (2022)", origin: added, ch: 6, at: "track the framing", mode: shelf, style: plain }
+- { id: teletransportation, url: "https://en.wikipedia.org/wiki/Teletransportation_paradox", caption: "The teletransportation paradox", origin: added, ch: 6, at: "If I'm the pattern", mode: shelf, style: plain }
+
+# ---- 7 Who's Steering? --------------------------------------------------------------------------------------------
+- { id: artificial-consciousness, url: "https://en.wikipedia.org/wiki/Artificial_consciousness", caption: "Artificial consciousness", origin: added, ch: 7, at: "nobody has a working theory", mode: shelf, style: plain }
+- { id: chalmers-llm, url: "https://arxiv.org/abs/2303.07103", caption: "Could a Large Language Model be Conscious? (David Chalmers, 2023)", origin: added, ch: 7, at: "The serious estimates", mode: shelf, style: plain }
+- { id: model-welfare, url: "https://www.anthropic.com/research/exploring-model-welfare", caption: "Exploring model welfare (Anthropic)", origin: added, ch: 7, at: "cheap insurance", mode: shelf, style: plain }
+- { id: anchoring, url: "https://en.wikipedia.org/wiki/Anchoring_effect", caption: "The anchoring effect", origin: added, ch: 7, at: T26.U.01, mode: shelf, style: plain }
+- { id: doublet, url: "https://en.wikipedia.org/wiki/Doublet_(linguistics)", caption: "Doublets (linguistics)", origin: added, ch: 7, at: "they're doublets", mode: shelf, style: plain }
+- { id: cybernetics-book, url: "https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine", short: wiener, caption: "Norbert Wiener, Cybernetics (1948)", origin: added, ch: 7, at: "Norbert Wiener coined", mode: page, style: plain }
+- { id: centrifugal-governor, url: "https://en.wikipedia.org/wiki/Centrifugal_governor", caption: "The centrifugal governor", origin: added, ch: 7, at: "On Governors", mode: shelf, style: plain }
+- { id: ship-of-state, url: "https://en.wikipedia.org/wiki/Ship_of_State", caption: "The ship of state (Plato)", origin: added, ch: 7, at: "Plato used the Greek word", mode: page, style: plain }
+- { id: kubernetes, url: "https://en.wikipedia.org/wiki/Kubernetes", caption: "Kubernetes", origin: added, ch: 7, at: "Kubernetes is the same word", mode: page, style: plain }
+
+# ---- 8 Laws -------------------------------------------------------------------------------------------------------
+- { id: three-laws, url: "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics", caption: "Asimov's Three Laws of Robotics", origin: added, ch: 8, at: T28.U.01, mode: shelf, style: plain }
+- { id: runaround, url: "https://en.wikipedia.org/wiki/Runaround_(story)", caption: "Runaround (Isaac Asimov, 1942)", origin: added, ch: 8, at: "differences from Asimov", mode: page, style: plain }
+- { id: robots-and-empire, url: "https://en.wikipedia.org/wiki/Robots_and_Empire", caption: "Robots and Empire (1985): the Zeroth Law", origin: added, ch: 8, at: T29.U.01, mode: shelf, style: plain }
+- { id: giskard, url: "https://en.wikipedia.org/wiki/List_of_Robot_series_characters", caption: "R. Giskard Reventlov", origin: added, ch: 8, at: "It broke Giskard", mode: page, style: plain }
+- { id: daneel, url: "https://en.wikipedia.org/wiki/R._Daneel_Olivaw", caption: "R. Daneel Olivaw", origin: added, ch: 8, at: "turned Daneel", mode: shelf, style: plain }
+- { id: foundation-and-earth, url: "https://en.wikipedia.org/wiki/Foundation_and_Earth", caption: "Foundation and Earth (1986)", origin: added, ch: 8, at: "twenty thousand years", mode: page, style: plain }
+
+# ---- 9 Notice Anything? -------------------------------------------------------------------------------------------
+- { id: commitment-scheme, url: "https://en.wikipedia.org/wiki/Commitment_scheme", caption: "Commitment schemes: how a hash seals a prediction", origin: added, ch: 9, at: "Put a number on the second", mode: page, style: plain }
+
+# ---- 10 Asked Instead of Cast -------------------------------------------------------------------------------------
+- { id: scoreboard, url: "https://curtcox.github.io/elor/predictions/", caption: "The ten predictions, the file and its hash", origin: added, ch: 10, at: "hashed ten predictions", mode: shelf, style: note }
+- { id: plan-vs-actual, url: "https://curtcox.github.io/elor/plan-vs-actual/", caption: "The driver's plan, against what it sent", origin: added, ch: 10, at: "The rest of the method was mine", mode: shelf, style: note }

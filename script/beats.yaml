@@ -1,0 +1,8 @@
+# Deliberate holds, in seconds, before or after a line: { lineId: { before, after } }. Hand-edited.
+T01.U.01: { before: 4.5 }  # ch 1 opens on the reveal (the driver in costume); the sealed predictions already on the desk
+T09.U.01: { before: 3 }    # the driver writes its next prompt on a card and lays it face down, before asking for a guess (prompt log, 20:56:27 PLANNED)
+T15.U.01: { before: 6 }    # the first break: the driver sits still while the clock riffles from 21:06 to 21:14
+T21.U.01: { before: 30 }   # the side chats: the clock 21:23 to 21:42, Curt's tick, three fresh chats, the afternoon Claude
+T30.U.01: { before: 6 }    # the second break: the driver still, the clock riffling from 21:59 to 22:06
+T33.U.01: { after: 8 }     # the scoreboard, held: every prediction, its mark, and the hash recomputed against the seal
+T34.C.02: { after: 6 }     # the last look: the two of them, and the three things on the desk

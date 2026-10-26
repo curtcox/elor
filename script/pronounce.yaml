@@ -1,0 +1,31 @@
+# Speech-only respellings, applied in order to every spoken line (after markdown is stripped).
+# They change what the voice says, never what the transcript says: the written form is what gets painted.
+# Matches are literal; letters/digits at either end of a match must sit on a word boundary.
+# verify: true = a guess to check by ear.
+
+# --- units and arithmetic (T15, T16) ----------------------------------------------------------------
+- { match: "12 oz × 480 grains = 5,760 grains", say: "twelve ounces times four hundred eighty grains equals five thousand seven hundred sixty grains" }
+- { match: "16 oz × 437.5 grains = 7,000 grains", say: "sixteen ounces times four hundred thirty-seven and a half grains equals seven thousand grains" }
+- { match: "373 g", say: "373 grams" }
+- { match: "454 g", say: "454 grams" }
+- { match: "31.1 g", say: "31.1 grams" }
+- { match: "28.35 g", say: "28.35 grams" }
+- { match: "0 to 100", say: "zero to a hundred" }
+
+# --- names and words -----------------------------------------------------------------------------------
+- { match: "MAD-style", say: "Mad-style" }
+- { match: "HAL's", say: "Hal's" }
+- { match: "HAL", say: "Hal" }
+- { match: "Ood", say: "Ood", verify: true }               # rhymes with "food"; respell if the voice spells it out
+- { match: "Voight-Kampff", say: "Voyt-Kampf" }
+- { match: "robota", say: "ROH-boh-tah" }
+- { match: "kybernan", say: "kee-ber-NAHN", verify: true }
+- { match: "kybernetes", say: "kee-ber-neh-TEES", verify: true }
+- { match: "gubernare", say: "goo-ber-NAH-reh", verify: true }
+- { match: "governer", say: "goo-ver-NAIR", verify: true }  # Old French
+- { match: "cybernétique", say: "see-ber-nay-TEEK" }
+- { match: "Ampère", say: "Ahm-PAIR" }
+- { match: "avoirdupois", say: "AV-er-duh-POYZ" }
+- { match: "Giskard", say: "GISS-kard" }
+- { match: "Daneel", say: "Da-NEEL" }
+- { match: "Kubernetes", say: "koo-ber-NET-eez" }

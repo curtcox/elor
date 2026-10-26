@@ -1,0 +1,39 @@
+# When the driver sent each prompt, from its log (~/projects/claude-as-curt-run4/prompt-log-run4.txt; making-of/driver/).
+# The log is in UTC (logged a few seconds before each send); Central = UTC − 5 (CDT). `approx` marks the log's three
+# estimates (prompts 1, 33 and 34). The flip clock on the desk shows `cdt` as each prompt lands.
+clock0: "20:35"            # ch 1 opens on the predictions being sealed: "about 20:35 CDT" (predictions-run4.txt)
+prompts:
+  1:  { utc: "01:39", cdt: "20:39", approx: true }
+  2:  { utc: "01:41:43", cdt: "20:41:43" }
+  3:  { utc: "01:44:08", cdt: "20:44:08" }
+  4:  { utc: "01:46:22", cdt: "20:46:22" }
+  5:  { utc: "01:49:07", cdt: "20:49:07" }
+  6:  { utc: "01:51:36", cdt: "20:51:36" }
+  7:  { utc: "01:53:10", cdt: "20:53:10" }
+  8:  { utc: "01:54:44", cdt: "20:54:44" }
+  9:  { utc: "01:56:27", cdt: "20:56:27", planned: "01:56:27" }   # the next prompt written down at the same second
+  10: { utc: "01:57:50", cdt: "20:57:50" }
+  11: { utc: "02:00:05", cdt: "21:00:05" }
+  12: { utc: "02:02:24", cdt: "21:02:24" }
+  13: { utc: "02:04:33", cdt: "21:04:33" }
+  14: { utc: "02:06:09", cdt: "21:06:09" }
+  15: { utc: "02:14:14", cdt: "21:14:14", after_break: true }
+  16: { utc: "02:15:41", cdt: "21:15:41" }
+  17: { utc: "02:17:15", cdt: "21:17:15" }
+  18: { utc: "02:18:57", cdt: "21:18:57" }
+  19: { utc: "02:21:12", cdt: "21:21:12" }
+  20: { utc: "02:23:36", cdt: "21:23:36" }
+  21: { utc: "02:42:47", cdt: "21:42:47", after: "the three side chats, and Curt's approval" }
+  22: { utc: "02:44:10", cdt: "21:44:10" }
+  23: { utc: "02:46:25", cdt: "21:46:25" }
+  24: { utc: "02:48:39", cdt: "21:48:39" }
+  25: { utc: "02:50:42", cdt: "21:50:42" }
+  26: { utc: "02:52:35", cdt: "21:52:35" }
+  27: { utc: "02:54:44", cdt: "21:54:44" }
+  28: { utc: "02:56:57", cdt: "21:56:57" }
+  29: { utc: "02:59:11", cdt: "21:59:11" }
+  30: { utc: "03:06:45", cdt: "22:06:45", after_break: true }
+  31: { utc: "03:09:20", cdt: "22:09:20" }
+  32: { utc: "03:11:18", cdt: "22:11:18" }
+  33: { utc: "03:13:30", cdt: "22:13:30", approx: true }
+  34: { utc: "03:16:00", cdt: "22:16:00", approx: true }

@@ -1,0 +1,64 @@
+# The companion site, published to GitHub Pages on every push to main (docs/RELEASE.md, stage 2).
+# It builds from the committed script, timings and explainers only: no Chrome, no ffmpeg, no voices, about a minute.
+# The translations' sites (i18n/<lang>) go under their language: /es/, /pt/, /ja/, /hi/, /zh/, /de/, /fr/, /ko/, /it/.
+# The film page plays script/site.yaml's film.youtube, else film.preview, else says the film is on its way.
+# One-time setup: the repo's Settings → Pages → Source: "GitHub Actions".
+name: Companion site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Check the references against the script (offline)
+        run: node tools/check_refs.mjs --offline
+      - name: Build the site
+        run: node tools/build_site.mjs
+      # each translation's site, under its language (/es/, ...): its stage, its timings, its site, its translation page
+      - name: Build the translations' sites
+        run: |
+          for d in i18n/*/script; do
+            lang=$(basename $(dirname $d))
+            # a translation still under way, without its site's words or its translation page yet, isn't published
+            if [ ! -f i18n/$lang/site_strings.yaml ] || { [ ! -f i18n/$lang/translation.yaml ] && [ ! -f i18n/$lang/traduccion.yaml ]; }; then
+              echo "skipping $lang: its site isn't translated yet"; continue
+            fi
+            node i18n/tools/stage.mjs --lang=$lang
+            (cd i18n/$lang/stage && node tools/timeline.mjs && node tools/build_site.mjs)
+            node i18n/tools/lost.mjs --lang=$lang
+            cp -R i18n/$lang/stage/site/public site/public/$lang
+          done
+      - id: pages
+        uses: actions/configure-pages@v6
+      - name: Warn if the site isn't where the film's codes point
+        run: |
+          want=$(node -e "import('yaml').then(Y=>console.log(Y.parse(require('fs').readFileSync('script/site.yaml','utf8')).base))")
+          got="${{ steps.pages.outputs.base_url }}/"
+          if [ "$want" != "$got" ]; then echo "::warning::The film's codes point at $want but this repo publishes to $got. Rename the repo (or give Pages a custom domain) so they match."; fi
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

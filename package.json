@@ -1,0 +1,49 @@
+{
+  "name": "elor",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Frog or Axolotl: a voiced, painted film of one conversation between Curt and Claude, and its companion site (built on Claude Animation Base)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node tools/start.mjs",
+    "film": "node tools/assemble.mjs",
+    "preview:publish": "node tools/publish_preview.mjs",
+    "names": "node tools/names_check.mjs",
+    "demo": "node render.mjs --clip --out=out/demo.mp4",
+    "demo:sheet": "node render.mjs --sheet=0,1,2,3,4,5 --out=out/demo_sheet.jpg",
+    "script": "node tools/build_script.mjs && node tools/verbatim_check.mjs",
+    "refs": "node tools/check_refs.mjs",
+    "qr": "node tools/qr_check.mjs",
+    "qr:images": "node tools/qr_images.mjs",
+    "reads": "node tools/read_check.mjs",
+    "sfx": "node tools/sfx_check.mjs",
+    "sounds": "node tools/sfx.mjs",
+    "lint:chapter": "node tools/lint_chapter.mjs",
+    "draft": "node render.mjs --draft",
+    "final": "node tools/final.mjs",
+    "site": "node tools/build_site.mjs",
+    "making-of": "node tools/making_of.mjs",
+    "thumbnail": "node tools/thumbnail.mjs",
+    "serve": "node tools/serve.mjs",
+    "watch": "node tools/watch.mjs",
+    "review": "node tools/review.mjs",
+    "rebuild": "node tools/rebuild.mjs"
+  },
+  "dependencies": {
+    "p5": "^2.3.3",
+    "p5.brush": "^2.2.3",
+    "puppeteer-core": "^25.11.0",
+    "qrcode-generator": "^1.5.2"
+  },
+  "devDependencies": {
+    "@undecaf/zbar-wasm": "^0.11.0",
+    "@zxing/library": "^0.21.3",
+    "jsqr": "^1.4.0",
+    "marked": "^14.1.4",
+    "pngjs": "^7.0.0",
+    "yaml": "^2.9.1"
+  }
+}

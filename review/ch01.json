@@ -1,0 +1,61 @@
+{
+ "chapter": 1,
+ "notes": [
+  {
+   "id": "nmuutm6bwc9",
+   "t": null,
+   "line": null,
+   "shot": null,
+   "by": "claude",
+   "text": "The pilot, first draft: the reveal (Clawd in your costume), the sealed predictions with the hash, prompts that land whole, and the target's first three answers. It sets the pattern for every chapter, so tell me anywhere it doesn't read: the costume, the side-on shot, the cutaways, the pace, the codes.",
+   "options": [
+    "Good, build the rest this way",
+    "Notes left on the timeline"
+   ],
+   "status": "resolved",
+   "created": "2026-10-05T05:40:08.972Z",
+   "replies": [
+    {
+     "by": "curt",
+     "text": "Good, build the rest this way",
+     "at": "2026-10-05T13:19:02.408Z"
+    }
+   ]
+  },
+  {
+   "id": "nmuv89o8tg",
+   "t": null,
+   "line": null,
+   "shot": null,
+   "by": "curt",
+   "text": "There are several places where things visually overlay other things that shouldn't.",
+   "status": "resolved",
+   "created": "2026-10-05T12:30:19.901Z",
+   "replies": [
+    {
+     "by": "claude",
+     "text": "Fixed the ones I found on a frame every 3.5 s: the comic's lettering showing through the press release (it now takes the villain's balloon's place, and that balloon's words go), the poster over a code, the left panel and the ventriloquist's lap under the caption, the ape's body under the caption and its '!' against a code. If you saw others, a timeline note at the spot will find them.",
+     "at": "2026-10-05T13:29:40.021Z"
+    }
+   ]
+  },
+  {
+   "id": "nmuv81j4r7a",
+   "t": 14.38,
+   "line": null,
+   "shot": "A",
+   "by": "curt",
+   "text": "I would dedicate far less time to the sealed predictions sequence -- a fraction of a second at most. However, I would keep them on the table the whole time and have a link for viewers that wanted to learn all about the sealed predictions to do so.",
+   "status": "resolved",
+   "created": "2026-10-05T12:24:00.027Z",
+   "replies": [
+    {
+     "by": "claude",
+     "text": "Done. Shot A is now 4.5 s: the reveal, with the sealed envelope already on the desk and a glint on its seal for 0.4 s. The envelope stays on the desk every shot until ch 10. A code for the predictions page (the ten predictions, the hash, how to check it) comes up with the first prompt. Chapter 1 is 10.5 s shorter.",
+     "at": "2026-10-05T13:29:39.221Z"
+    }
+   ],
+   "frame": "frames/ch01-nmuv81j4r7a.jpg"
+  }
+ ]
+}

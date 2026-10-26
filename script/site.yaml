@@ -1,0 +1,11 @@
+# The companion site: the conversation, the driver's notes, and every link in the film, by chapter and time.
+# Published to GitHub Pages. Every QR code in the film points at base (Curt, 2026-10-04: no code points elsewhere).
+base: https://curtcox.github.io/elor/   # the repo elor ("role" reversed)
+short: r/         # a forwarding page lives at base + short + name + '/', for every link that isn't the site's own
+notes: n/         # an explainer (or one of the driver's notes) lives at base + notes + id + '/'
+# The film, on the site (tools/build_site.mjs). Built on this computer, the site plays the newest local cut
+# (out/film/film.mp4, from npm run film). Published, it plays the first of these that's set:
+film:
+  youtube:           # the video's id, once it's on YouTube
+  preview:           # until then, a video file's address, e.g. a cut on the repo's releases page
+  repo: https://github.com/curtcox/elor   # neither set: the site says the film is on its way, and how to make it from here

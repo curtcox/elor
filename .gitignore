@@ -1,0 +1,8 @@
+node_modules
+out/
+assets/ref/
+.DS_Store
+audio/scratch/
+audio/*.wav
+site/public/
+review/seen.json

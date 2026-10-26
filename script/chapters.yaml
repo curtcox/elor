@@ -1,0 +1,58 @@
+# Chapters: which transcript blocks each chapter carries (VIDEO_PLAN.md §8). Hand-edited.
+# Chapters are construction units (a scene file and a render each); they're joined into one film at the end, so a
+# split here shows only as a YouTube chapter marker.
+#   ids:    explicit block ids (claimed first)
+#   turns:  [first, last] turn numbers, inclusive (every block not already claimed)
+#   hold_s: extra visual-only time the chapter needs beyond its lines (the envelope, the breaks, the side chats, ...)
+#   page:   a file of voiced balloons the chapter adds after its lines (tools/script_lib.mjs's pageLines)
+- n: 0
+  slug: cold_open
+  title: Cold open
+  ids: [T01.U.00]               # the MAD #157 page, before the first question
+  page: script/cold_open.yaml   # its ten balloons, voiced as in axol-f (lines MAD.<balloon>)
+  hold_s: 9.2
+- n: 1
+  slug: the_costume
+  title: The Costume
+  turns: [1, 3]                 # (the reveal and the envelope, before the first prompt: script/beats.yaml)
+- n: 2
+  slug: the_ball
+  title: The Ball
+  turns: [4, 5]
+- n: 3
+  slug: voight_kampff
+  title: Voight-Kampff
+  turns: [6, 8]
+- n: 4
+  slug: wires_and_door
+  title: The Wires and the Door
+  turns: [9, 14]                # (the face-down index card, before prompt 9: script/beats.yaml)
+- n: 5
+  slug: herbie
+  title: Herbie
+  turns: [15, 19]               # (the first break, 21:06 to 21:14, before prompt 15: script/beats.yaml)
+- n: 6
+  slug: what_do_you_want
+  title: What Do You Want?
+  turns: [20, 23]               # (the side chats, 21:23 to 21:42, before prompt 21: script/beats.yaml)
+- n: 7
+  slug: whos_steering
+  title: Who's Steering?
+  turns: [24, 27]
+- n: 8
+  slug: laws
+  title: Laws
+  turns: [28, 29]
+- n: 9
+  slug: notice_anything
+  title: Notice Anything?
+  turns: [30, 31]               # (the second break, 21:59 to 22:06, before prompt 30: script/beats.yaml)
+- n: 10
+  slug: asked_instead_of_cast
+  title: Asked Instead of Cast
+  turns: [32, 34]               # (the scoreboard held after prompt 33, and the last look: script/beats.yaml)
+- n: 11
+  slug: coda
+  title: Coda
+  ids: []
+  hold_s: 60                    # the empty desk, the five runs' odds, the QR wall, the companion code
